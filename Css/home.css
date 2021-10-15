@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.nav{
+    margin-left: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.nav:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+body{
+    background-image: url("../img/1.jpg");
+}
+.nav_1:visited{
+    color: brown;
+}
+.news{
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid red;
+    border-radius: 15px;
+    display:inline-block;
+    width: 275px;
+    height: 300px;
+    margin-left: 20px;
+    box-sizing: content-box;
+    background-color: green;
+    color: #ffec08;
+    margin-top: 0px;
+   
+}
+.news:hover{
+    animation-name: example;
+    animation-duration: 1s;
+}
+.newsdiv{
+    position: relative;
+    animation-name: move;
+    display: hidden;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    /* border: 2px solid red; */
+}
+@keyframes example {
+    from {background-color: green;color:ffec08 ;}
+    to {background-color: yellow;color: red;}
+  }
+@keyframes move {
+    from {bottom: 462px;display: hidden;}
+    to {bottom: 0px;display: block;}
+  }
+.number{
+    position: relative;
+    left: 250px;
+    /* display: inline-block; */
+    /* margin: auto; */
+    width: 231px;
+}
