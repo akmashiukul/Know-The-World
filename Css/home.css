@@ -57,3 +57,8 @@ body{
     /* margin: auto; */
     width: 231px;
 }
+@media screen and (max-width: 800px) {
+    .nav_2,.contact {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
