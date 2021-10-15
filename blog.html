@@ -23,27 +23,74 @@
       </div>
     <h2 style="text-align: center; color: blue;font-size: 20px;">Blog</h2>
     <div class="newsdiv">
+        <div class="news">
+            <h2 class="title" style="text-align: center;text-decoration: underline;">Science News Roundup: Hearth site in Utah desert reveals human tobacco use 12,300 years ago; Chinese lunar samples suggest moon cooled down later than thought and more</h2>
+            <p style="display: inline;">Author:</p>
+            <p style="display: inline;color: gray;">Shahriar</p>
+            <img style="    font-family: 'Roboto', sans-serif;
+            color: #ffec08;
+            box-sizing: border-box;
+            width: 23px;
+            height: 21px;
+            position: relative;
+            left: 65px;" src="./img/views.png" alt="views" srcset="">
+            <span style="position: relative;
+            left: 75px;bottom: 4px;">1</span>
+            <p class="content" >Dangerous blood clots can occur in moderate COVID-19 Chinese lunar samples suggest moon cooled down later than thought Remnants of solidified lava brought back by a Chinese mission were 1 billion years younger than material acquired by other missions decades ago, according to an article in the journal Science, suggesting the moon cooled down later than thought.</p>
+            <a class="see_more"  href="./content/1.html">See More</a>
+        </div>     
     <div class="news">
-        <h2 style="text-align: center;text-decoration: underline;">Title</h2>
+        <h2 class="title" style="text-align: center;text-decoration: underline;">A sense of touch could upgrade virtual reality, prosthetics and more</h2>
         <p style="display: inline;">Author:</p>
         <p style="display: inline;color: gray;">Shahriar</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis iure similique laborum ipsum ducimus aut, doloribus, tempora rerum voluptatem alias enim vero sint optio nulla quas ab corporis rem!</p>
+        <img style="    font-family: 'Roboto', sans-serif;
+        color: #ffec08;
+        box-sizing: border-box;
+        width: 23px;
+        height: 21px;
+        position: relative;
+        left: 65px;" src="./img/views.png" alt="views" srcset="">
+        <span style="position: relative;
+        left: 75px;bottom: 4px;">1</span>
+        <p class="content" >On most mornings, Jeremy D. Brown eats an avocado. But first, he gives it a little squeeze. A ripe avocado will yield to that pressure, but not too much. Brown also weighs the fruit in his hand. He feels the waxy skin’s bumps and ridges.
+
+            “I can’t imagine not having the sense of touch to be able to do something as simple as judging the ri</p>
+        <a class="see_more"  href="./content/2.html">See More</a>
     </div>
     <div class="news">
-        <h2 style="text-align: center;text-decoration: underline;">Title</h2>
+        <h2 class="title" style="text-align: center;text-decoration: underline;">Title</h2>
         <p style="display: inline;">Author:</p>
         <p style="display: inline;color: gray;">Shahriar</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis iure similique laborum ipsum ducimus aut, doloribus, tempora rerum voluptatem alias enim vero sint optio nulla quas ab corporis rem!</p>
+        <img style="    font-family: 'Roboto', sans-serif;
+        color: #ffec08;
+        box-sizing: border-box;
+        width: 23px;
+        height: 21px;
+        position: relative;
+        left: 65px;" src="./img/views.png" alt="views" srcset="">
+        <span style="position: relative;
+        left: 75px;bottom: 4px;">1</span>
+        <p class="content" >Dangerous blood clots can occur in moderate COVID-19 Chinese lunar samples suggest moon cooled down later than thought Remnants of solidified lava brought back by a Chinese mission were 1 billion years younger than material acquired by other missions decades ago, according to an article in the journal Science, suggesting the moon cooled down later than thought.</p>
+        <a class="see_more"  href="./content/1.html">See More</a>
     </div>
-    <div class="news">
-        <h2 style="text-align: center;text-decoration: underline;">Title</h2>
-        <p style="display: inline;">Author:</p>
-        <p style="display: inline;color: gray;">Shahriar</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores reiciendis iure similique laborum ipsum ducimus aut, doloribus, tempora rerum voluptatem alias enim vero sint optio nulla quas ab corporis rem!</p>
-    </div>
+
     
 
    
 </div>
 </body>
+<script>
+let a = document.getElementsByClassName("content")
+console.log(a)
+for (let i = 0; i < a.length; i++) {
+        d=a[i].textContent.slice(0,150)+"...."
+        a[i].innerHTML=d;
+	}
+let b = document.getElementsByClassName("title")
+for (let i = 0; i < b.length; i++) {
+        c=b[i].textContent.slice(0,14)+"...."
+        b[i].innerHTML=c;
+	}
+
+</script>
 </html>
